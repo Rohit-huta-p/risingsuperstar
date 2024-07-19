@@ -24,8 +24,8 @@ const Footer = () => {
           
             <div className="flex flex-col">
                 <h2 className="text-2xl">Contact Us</h2>
-                <p className="text-gray-400">Mobile: xxx-xxx-xxx</p>
-                <p className="text-gray-400">Email: xxx-xxx-xxx</p>
+                <p className="text-gray-400">Mobile: 7020054270</p>
+
             </div>
             </div>
 
