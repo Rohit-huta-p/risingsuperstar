@@ -7,6 +7,11 @@ import { FaWhatsapp } from "react-icons/fa";
 
 
 const Main = () => {
+
+    const openWhatsApp = (phoneNumber, message) => {
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+        window.open(url, '_blank');
+      };
     
   return (
     <>   
@@ -41,7 +46,8 @@ const Main = () => {
             </div>
 
             <div>
-                <a href='+91' className='flex items-center text-2xl bg-lime-700 text-white px-4 py-2 rounded-lg'>
+     
+                <a onClick={() => openWhatsApp("+917020054270", "Hello, Can I get more details? ")} className='flex items-center text-2xl bg-lime-700 text-white px-4 py-2 rounded-lg'>
                 <FaWhatsapp size={40} className='mr-3' /> Enquire &<br />  get offer now 
                 </a>
             </div>

@@ -24,13 +24,13 @@ const Gallery = () => {
     console.log('Video source:', _1v);
   }, []);
   return (
-    <div className='relative mt-[150px]'>
+    <div className='relative mt-[20px]'>
       <div className=' flex justify-center items-center '>
         {/* <img src={arrow_right} alt="" className='h-20 mr-4 translate-y-3'/> */}
-        <h2 className='text-3xl'>Gallery</h2>
+        <h2 className='text-4xl px-5 py-2 rounded bg-amber-400'>Gallery</h2>
         {/* <img src={arrow_left} alt="" className='h-20 ml-4 translate-y-3'/> */}
       </div>  
-      <div className="grid grid-cols-4 grid-rows-7 gap-4 mt-5">
+      <div className="grid grid-cols-4 grid-rows-7 gap-4 mt-[70px]">
           <img src={_1} alt="" className='h-full col-span-2 row-span-2'/>
           <img src={_2} alt="" className='h-full col-span-2 row-span-2 col-start-3'/>
           <img src={_3} alt="" className='h-full col-span-2 row-span-1'/>
