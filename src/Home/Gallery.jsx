@@ -37,10 +37,10 @@ const Gallery = () => {
           <img src={_4} alt="" className='h-full col-span-2 row-span-2 col-start-3'/>
           <img src={_5} alt="" className='h-full col-span-2'/>
           <img src={_7} alt="" className='h-full col-span-2 '/>
-          <img src={_6} alt="" className='h-full col-span-2 row-span-4 col-start-3'/>
+          <img src={_6} alt="" className='h-full col-span-2 row-span-2 col-start-3'/>
           <img src={_8} alt="" className='h-full col-span-2 '/>
-          <img src={_10} alt="" className='h-full col-span-2 row-span-4'/>
-          <img src={_9} alt="" className='h-full col-span-2 row-span-2 col-start-3'/>
+          <img src={_10} alt="" className='h-full col-span-2 row-span-2'/>
+          <img src={_9} alt="" className='h-full col-span-2'/>
           <img src={_11} alt="" className='h-full col-span-2 row-span-4'/>
           <img src={_12} alt="" className='h-full col-span-2 row-span-4'/>
           <img src={_13} alt="" className='h-full col-span-2 row-span-4'/>
