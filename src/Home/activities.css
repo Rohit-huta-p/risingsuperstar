@@ -1,0 +1,52 @@
+.circle-se {
+  box-shadow: 0px -1px 13px -4px rgba(0,0,0,1);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  line-height: 80px;
+  background-image: url('../assets/images/english.jpg');
+  background-size: 150px;
+  background-repeat: no-repeat;
+}
+
+
+.circle-a {
+  box-shadow: 0px 5px 22px -4px rgba(0,0,0,1);
+  border-color: rgb(112, 44, 229);
+  border-width: 2px;
+  width: 150px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    line-height: 80px;
+    background-image: url('../assets/images/abacus.jpg');
+    background-size: 150px;
+    background-repeat: no-repeat;
+  }
+.circle-d {
+  box-shadow: 0px 5px 22px -4px rgba(0,0,0,1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    line-height: 80px;
+    background-image: url('../assets/images/dance.jpg');
+    background-size: 200px;
+    background-position: -20px;
+    background-repeat: no-repeat;
+  }
+.circle-drawing {
+  box-shadow: 0px 5px 22px -4px rgba(0,0,0,1);
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    line-height: 80px;
+    background-image: url('../assets/images/drawing.jpg');
+    background-size: 200px;
+    background-position: -20px;
+    background-repeat: no-repeat;
+  }
