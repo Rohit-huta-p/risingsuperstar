@@ -14,7 +14,7 @@ const Activities = () => {
 
         {/* ACTVITIES */}
         <div className='p-[4rem]'>
-        <Activity name="Spoken English" circleClass="circle-se" />
+        <Activity name="English" circleClass="circle-se" />
 
           <div className='flex justify-end'>
             <Activity name="Abacus" circleClass="circle-a" />
