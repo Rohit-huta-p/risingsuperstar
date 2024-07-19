@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <>
       <div className="bg-slate-700 text-white">
-        <h3>Working Hours</h3>
+        <h3 className="text-center font-thin text-sm p-1">Office Hours: 8:00pm - 6:00pm</h3>
       </div>
       <div className="flex items-center justify-between border-b border-gray-400">
         <a href="/" className="flex items-center">
